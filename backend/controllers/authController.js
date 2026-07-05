@@ -4,6 +4,9 @@ import pool from '../db.js';
 import { defaultCategories } from '../utils/defaultCategories.js';
 
 const signToken =(userId)=>{
+
+    // console.log("SIGN SECRET:", process.env.JWT_SECRET);
+
     return jwt.sign(
         { userId },
         process.env.JWT_SECRET,

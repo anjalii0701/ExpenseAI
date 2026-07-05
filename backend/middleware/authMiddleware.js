@@ -18,6 +18,9 @@ export const protect = (req, res, next) => {
    
     const token = authHeader.split(' ')[1];
 
+    // console.log("TOKEN RECEIVED:", token);
+    // console.log("VERIFY SECRET:", process.env.JWT_SECRET);
+
     try {
 
         const decoded = jwt.verify(
@@ -32,7 +35,7 @@ export const protect = (req, res, next) => {
     } catch (error) {
 
         return res.status(401).json({
-            message: 'Not authorized, token failed'
+            message: error.message
         });
 
     }

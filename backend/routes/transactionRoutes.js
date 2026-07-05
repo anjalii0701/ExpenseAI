@@ -5,7 +5,8 @@ import {
     createTransaction,
     getTransactionById,
     updateTransaction,
-    deleteTransaction
+    deleteTransaction,
+    analyzeTransactions
 } from '../controllers/transactionController.js';
 
 import { protect } from '../middleware/authMiddleware.js';
@@ -16,6 +17,7 @@ router.use(protect);
 
 router.get('/', getTransactions);
 router.post('/', createTransaction);
+router.post("/analyze" ,analyzeTransactions)
 router.get('/:id', getTransactionById);
 router.put('/:id', updateTransaction);
 router.delete('/:id', deleteTransaction);
