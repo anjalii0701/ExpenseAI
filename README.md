@@ -9,7 +9,7 @@ The application enables users to securely track income and expenses, manage budg
 ## 🚀 Live Demo
 
 ### 🌐 Frontend
-"https://expense-ai-zdhq-three.vercel.app/login"
+https://expense-ai-zdhq-git-main-anjalis-projects-38de35bc.vercel.app
 
 
 ### ⚙️ Backend API
