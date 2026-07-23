@@ -1,6 +1,6 @@
-# 💸 ExpenseAI – AI Powered Personal Finance Tracker
+# 💸 PocketBook –  Personal Finance Tracker
 
-ExpenseAI is a full-stack AI-powered personal finance management application built using the **PERN Stack (PostgreSQL, Express.js, React.js, Node.js)** and powered by **Google Gemini AI**.
+PocketBook is a full-stack AI-powered personal finance management application built using the **PERN Stack (PostgreSQL, Express.js, React.js, Node.js)** and powered by **Google Gemini AI**.
 
 The application enables users to securely track income and expenses, manage budgets, visualize financial data through interactive dashboards, and receive AI-generated financial insights and recommendations.
 
@@ -13,7 +13,7 @@ The application enables users to securely track income and expenses, manage budg
 
 
 ### ⚙️ Backend API
-https://expenseai-bbs8.onrender.com
+https://PocketBook-bbs8.onrender.com
 
 ---
 
@@ -152,7 +152,7 @@ Google Gemini AI
 # 📂 Project Structure
 
 ```
-ExpenseAI
+PocketBook
 │
 ├── frontend
 │   ├── public
@@ -204,9 +204,9 @@ VITE_API_URL=https://your-backend-url.onrender.com/api
 ## Clone Repository
 
 ```bash
-git clone https://github.com/yourusername/ExpenseAI.git
+git clone https://github.com/yourusername/PocketBook.git
 
-cd ExpenseAI
+cd PocketBook
 ```
 
 ---
